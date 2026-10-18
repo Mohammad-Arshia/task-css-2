@@ -1,0 +1,236 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>داشبورد پروژه‌ها | مدار</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <!--  سایدبار (فقط دسکتاپ)  -->
+      <aside class="sidebar">
+        <div class="logo">
+          <span class="logo-icon"></span>
+          <span>مدار</span>
+        </div>
+
+        <nav class="nav">
+          <a href="#" class="nav-link active"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg> داشبورد</a>
+          <a href="#" class="nav-link"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg> پروژه‌ها</a>
+          <a href="#" class="nav-link"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5"/><path d="m9 11 3 3L22 4"/></svg> وظایف</a>
+          <a href="#" class="nav-link"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> تیم</a>
+          <a href="#" class="nav-link"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg> تنظیمات</a>
+        </nav>
+
+        <div class="user">
+          <img class="avatar big" src="assets/user.jpeg" alt="" />
+          <div>
+            <strong>علی محمدی</strong>
+            <small>مدیر محصول</small>
+          </div>
+        </div>
+      </aside>
+
+      <!-- بخش اصلی -->
+      <main class="main">
+        <!-- هدر موبایل (در دسکتاپ مخفیه) -->
+        <div class="mobile-header">
+          <div class="logo logo-dark">
+            <span class="logo-icon"></span>
+            <span>مدار</span>
+          </div>
+
+          <!-- سه‌خط: فقط ظاهر، کاری انجام نمی‌ده -->
+          <button class="hamburger" type="button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg></button>
+        </div>
+
+        <!-- بالای صفحه: عنوان + جست‌وجو + دکمه -->
+        <header class="topbar">
+          <div class="title-box">
+            <h1>داشبورد پروژه‌ها</h1>
+            <p>نگاهی کلی به وضعیت پروژه‌ها، وظایف و عملکرد تیم شما</p>
+          </div>
+
+          <div class="actions">
+            <div class="search-box">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input class="search" type="search" placeholder="جست‌وجو" />
+            </div>
+            <button class="btn-primary" type="button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg> پروژه جدید</button>
+          </div>
+        </header>
+
+        <!-- کارت‌های آمار -->
+        <section class="stats">
+          <div class="stat-card">
+            <div class="stat-top">
+              <span class="stat-label">پروژه‌های فعال</span>
+              <span class="icon-circle purple"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            </div>
+            <div class="stat-number">۲۴</div>
+            <span class="badge green"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg> ۱۴٪</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-top">
+              <span class="stat-label">کل وظایف</span>
+              <span class="icon-circle purple"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg></span>
+            </div>
+            <div class="stat-number">۱۲۸</div>
+            <span class="badge purple"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg> ۸٪</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-top">
+              <span class="stat-label">وظایف باز</span>
+              <span class="icon-circle red"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+            </div>
+            <div class="stat-number">۸</div>
+            <span class="badge red"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg> ۱۲٪</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-top">
+              <span class="stat-label">پروژه‌های تکمیل شده</span>
+              <span class="icon-circle green"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></span>
+            </div>
+            <div class="stat-number">۱۶</div>
+            <span class="badge green"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg> ۲۵٪</span>
+          </div>
+        </section>
+
+        <!-- پایین: جدول پروژه‌ها + فعالیت‌ها -->
+        <div class="content">
+          <section class="panel">
+            <div class="panel-head">
+              <h2>پروژه‌های فعال</h2>
+              <a href="#" class="link mobile-only">نمایش همه</a>
+              <div class="tabs">
+                <button class="tab active" type="button">همه</button>
+                <button class="tab" type="button">در حال انجام</button>
+                <button class="tab" type="button">در انتظار</button>
+                <button class="tab" type="button">تکمیل شده</button>
+              </div>
+            </div>
+
+            <!-- سرستون‌ها (در موبایل مخفی می‌شن) -->
+            <div class="table-head project-grid">
+              <span>پروژه</span>
+              <span>اعضا</span>
+              <span>وضعیت</span>
+              <span>پیشرفت</span>
+              <span>تاریخ پایان</span>
+              <span></span>
+            </div>
+
+            <div class="project-row project-grid">
+              <div class="project-info">
+                <span class="project-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/></svg></span>
+                <div>
+                  <strong>طراحی وب‌سایت</strong>
+                  <small>طراحی و توسعه وب‌سایت شرکتی</small>
+                </div>
+              </div>
+              <div class="members">
+                <img class="avatar" src="assets/1.jpeg" alt="" />
+                <img class="avatar" src="assets/2.jpeg" alt="" />
+                <img class="avatar" src="assets/3.jpeg" alt="" />
+                <span class="more">+۳</span>
+              </div>
+              <span class="status green">در حال انجام</span>
+              <div class="progress">
+                <div class="bar"><div class="fill" style="width: 75%"></div></div>
+                <span>۷۵٪</span>
+              </div>
+              <span class="date">۱۴۰۴/۰۳/۲۵</span>
+              <button class="menu-btn" type="button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></button>
+            </div>
+            <div class="project-row project-grid">
+              <div class="project-info">
+                <span class="project-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></span>
+                <div>
+                  <strong>اپلیکیشن فروشگاه</strong>
+                  <small>توسعه اپلیکیشن موبایل فروشگاه</small>
+                </div>
+              </div>
+              <div class="members">
+               <img class="avatar" src="assets/1.jpeg" alt="" />
+                <img class="avatar" src="assets/2.jpeg" alt="" />
+                <img class="avatar" src="assets/3.jpeg" alt="" />
+                <span class="more">+۲</span>
+              </div>
+              <span class="status orange">در انتظار</span>
+              <div class="progress">
+                <div class="bar"><div class="fill" style="width: 40%"></div></div>
+                <span>۴۰٪</span>
+              </div>
+              <span class="date">۱۴۰۴/۰۳/۱۰</span>
+              <button class="menu-btn" type="button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></button>
+            </div>
+            <div class="project-row project-grid">
+              <div class="project-info">
+                <span class="project-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></span>
+                <div>
+                  <strong>پنل مدیریت</strong>
+                  <small>طراحی پنل مدیریت سامانه</small>
+                </div>
+              </div>
+              <div class="members">
+                <img class="avatar" src="assets/1.jpeg" alt="" />
+                <img class="avatar" src="assets/2.jpeg" alt="" />
+                <img class="avatar" src="assets/3.jpeg" alt="" />
+                <span class="more">+۴</span>
+              </div>
+              <span class="status green">تکمیل شده</span>
+              <div class="progress">
+                <div class="bar"><div class="fill" style="width: 100%"></div></div>
+                <span>۱۰۰٪</span>
+              </div>
+              <span class="date">۱۴۰۴/۰۱/۲۰</span>
+              <button class="menu-btn" type="button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <h2>فعالیت‌های اخیر</h2>
+              <a href="#" class="link">نمایش همه</a>
+            </div>
+
+            <ul class="activity-list">
+              <li class="activity-item ">
+                <div class="activity-text">
+                  <p><strong>سارا احمدی</strong> وظیفه جدیدی ایجاد کرد</p>
+                  <small>طراحی صفحه ورود</small>
+                  <small>۱۰ دقیقه پیش</small>
+                </div>
+                <img class="avatar big" src="assets/1.jpeg" alt="" />
+              </li>
+              <li class="activity-item green">
+                <div class="activity-text">
+                  <p><strong>محمد رضایی</strong> وضعیت پروژه را تغییر داد</p>
+                  <small>اپلیکیشن فروشگاه</small>
+                  <small>۱ ساعت پیش</small>
+                </div>
+                <img class="avatar big" src="assets/2.jpeg" alt="" />
+              </li>
+              <li class="activity-item gray">
+                <div class="activity-text">
+                  <p><strong>نگین کریمی</strong> فایل را آپلود کرد</p>
+                  <small>مستندات طراحی رابط کاربری</small>
+                  <small>۳ ساعت پیش</small>
+                </div>
+                <img class="avatar big" src="assets/3.jpeg" alt="" />
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
